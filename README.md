@@ -39,7 +39,7 @@ Before starting, you will need to have the following tools installed on your mac
 
 ```bash
 # Clone this repo
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone git@github.com:gabriel-nigro/pokemon-stats.git
 
 # Get into project folder
 $ cd pokemon-stats
