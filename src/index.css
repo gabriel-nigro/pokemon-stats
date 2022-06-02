@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Colors name are from: https://www.color-name.com/ */
+:root {
+  --anti-flash-white: #f3f2f2;
+  --bright-ube: #c8a6ee;
+  --dandelion: #fadd6a;
+  --khaki: #e1d999;
+  --linen: #f9f4e4;
+  --ocean-boat-blue: #0079c0;
+  --platinum: #e6e6e7;
+  --shandy: #fee574;
+  --slate-gray: #7a808c;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive !important;
+}
+
+/* Backgrounds */
+.bg-blue {
+  background-color: var(--ocean-boat-blue);
+}
+
+.bg-gray {
+  background-color: var(--slate-gray);
+}
+
+.bg-purple {
+  background-color: var(--bright-ube);
+}
+
+.bg-sand {
+  background-color: var(--khaki);
+}
+
+.bg-stats {
+  background-color: var(--linen);
+}
+
+/* Image */
+.image-flip {
+  transform: rotateY(180deg);
+}
+
+/* Stripe effect */
+.stripe-gray {
+  color: var(--white);
+  background: linear-gradient(
+    to bottom,
+    var(--anti-flash-white),
+    var(--anti-flash-white) 10%,
+    var(--platinum) 10%,
+    var(--platinum)
+  );
+  background-size: 100% 20px;
+}
+
+.stripe-orange {
+  color: var(--white);
+  background: linear-gradient(
+    to bottom,
+    var(--shandy),
+    var(--shandy) 15%,
+    var(--dandelion) 15%,
+    var(--dandelion)
+  );
+  background-size: 100% 20px;
+}
+
+/* Text */
+.text-stats {
+  color: var(--slate-gray)
+}
